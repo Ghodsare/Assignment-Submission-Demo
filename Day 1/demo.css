@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 70%;
+    height: 60px;
+    color: #101310;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: segoe UI;
+}
+.body{
+    background-color: rgb(218, 64, 64);
+   
+}
+
+.nav {
+    width: 40%;
+    /* height: 60px; */
+   /* background-color: rgb(87, 86, 86);*/
+}
+
+.nav-parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    list-style-type: none;
+    width: 25%;
+    height: 60px;
+    /* background-color: green; */
+    text-align: center;
+    line-height: 60px;
+    color:white;
+    font-family: segoe UI;
+    font-size: 15px;
+    /* border-top:1px solid gray; */
+
+        
+    background-color: rgb(87, 86, 86);   
+   
+    
+}
+
+@media (max-width:450px){
+
+    .container{
+        width: 100%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .nav{
+        width: 100%;
+    }
+
+    .nav-link{
+        width: 100%;
+        box-shadow: 0 0 1px gray;
+        line-height: 50px;
+        height: 50px;
+        text-align: left;
+        text-indent: 20px;
+    }
+
+
+}
+
